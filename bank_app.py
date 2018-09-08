@@ -123,11 +123,13 @@ while loop:
             print(new_account)
             print('-' * 19)
             print('\n')
+
         elif action == 'p'.lower():
             print('\n')
             print('-' * 19)
             new_account.print_records(new_account.history())
             print('-' * 19)
             print('\n')
+
         elif action == 'e'.lower():
             break
